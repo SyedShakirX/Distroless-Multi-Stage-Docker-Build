@@ -1,0 +1,7 @@
+#Docker Compose For This Application 
+services:
+  flaskapp:
+    image: syedshakir1/python-flask-app:latest
+
+    ports:
+      - "5000:5000"
